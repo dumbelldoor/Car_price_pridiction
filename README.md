@@ -2,7 +2,6 @@
 
 Sure! Here's a README file for your use-case, including an overview, setup instructions, and usage examples. You can use this for your GitHub repository.
 
-```markdown
 # Car Selling Price Prediction
 
 This project aims to predict the selling price of cars using various regression models. The dataset includes features such as brand, model, vehicle age, kilometers driven, fuel type, transmission type, mileage, engine size, max power, and seller type.

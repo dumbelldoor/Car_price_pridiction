@@ -1,6 +1,7 @@
 import pandas as pd
 import streamlit as st
 import pickle as pkl
+import sklearn
 
 # Load dataset (for feature range reference)
 df = pd.read_csv('cardekho_dataset.csv')

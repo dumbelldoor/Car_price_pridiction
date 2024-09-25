@@ -6,7 +6,7 @@
 import pandas as pd
 import streamlit as st
 import pickle
-from sklearn.preprocessing import StandardScaler
+# from sklearn.preprocessing import StandardScaler
 
 # Load dataset (for feature range reference)
 df = pd.read_csv('cardekho_dataset.csv')
@@ -16,7 +16,7 @@ with open('best_model_RandomForest Regressor.pkl', 'rb') as file:
     best_model = pickle.load(file)
 
 # Load the scaler used during training
-with open('scaler.pkl', 'rb') as file:
+with open('Scaler.pkl', 'rb') as file:
     scaler = pickle.load(file)
 
 # Sidebar for user input

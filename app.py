@@ -1,13 +1,13 @@
 import pandas as pd
 import streamlit as st
 import pickle as pkl
-from sklearn.preprocessing import LabelEncoder
-from sklearn.ensemble import RandomForestRegressor
-from sklearn.model_selection import train_test_split
-from sklearn.preprocessing import StandardScaler
-from sklearn.neighbors import KNeighborsRegressor
-from sklearn.linear_model import LinearRegression, Lasso, Ridge
-from sklearn.metrics import mean_squared_error, r2_score
+# from sklearn.preprocessing import LabelEncoder
+# from sklearn.ensemble import RandomForestRegressor
+# from sklearn.model_selection import train_test_split
+# from sklearn.preprocessing import StandardScaler
+# from sklearn.neighbors import KNeighborsRegressor
+# from sklearn.linear_model import LinearRegression, Lasso, Ridge
+# from sklearn.metrics import mean_squared_error, r2_score
 
 
 # Load dataset (for feature range reference)

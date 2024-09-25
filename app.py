@@ -5,7 +5,7 @@
 
 import pandas as pd
 import streamlit as st
-import pickle
+import pickle4 as pkl
 # from sklearn.preprocessing import StandardScaler
 
 # Load dataset (for feature range reference)
@@ -13,11 +13,11 @@ df = pd.read_csv('cardekho_dataset.csv')
 
 # Load the best model (previously saved)
 with open('best_model_RandomForest Regressor.pkl', 'rb') as file:
-    best_model = pickle.load(file)
+    best_model = pkl.load(file)
 
 # Load the scaler used during training
 with open('Scaler.pkl', 'rb') as file:
-    scaler = pickle.load(file)
+    scaler = pkl.load(file)
 
 # Sidebar for user input
 st.sidebar.title('Car Price Predictor')
